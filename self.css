@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: #1a313d;
+}
+
+.header{
+    background-color:#969494;
+    width: 95%;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    margin: 32px;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    border-radius: 20px;
+}
+
+.header .pic{
+    display: flex;
+}
+.header .pic .intro{
+    width: 790px;
+    /* background: #5d0000; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header .pic .intro h1{
+    margin-top: 135px;
+    margin-left: 240px;
+    font-size: 54px;
+    font-family: fangsong;
+    /* text-decoration: 2px rgb(0, 204, 255) underline; */
+    text-shadow: 3px 2px rgb(0, 0, 0);
+}
+
+.header .pic .intro li{
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.header .pic .intro li ul{
+    padding: 3px;
+    margin: 0px;
+    font-family: fangsong;
+    text-shadow: 2px 1px black;
+}
+
+.header .pic img{
+    width: 340px;
+    height: 340px;
+    margin: 30px 100px;
+    border-radius:240px;
+
+}
+.nav{
+    width: 1500px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    background-color: #414040bd; 
+    border-radius: 25px; 
+    position:sticky;
+    top: 5px;
+    z-index: 2;  
+}
+
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 13px;         
+}
+.nav ul li a{
+    margin: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white; 
+    font-size: 22px ; 
+    font-family: serif;
+    text-shadow: 2px 1px black;  
+}
+
+.nav ul li a:hover{
+    color: black;
+    background: white;
+    border-bottom:2px solid black ;
+    border-right:2px solid black ;
+    border-radius: 25px;
+    text-shadow:none;
+}
+
+#abtme{
+    display: flex;
+    padding: 100px;
+}
+
+#abtme img{
+    border-radius: 25px;
+}
+
+.container1{
+    width: 100%;
+    height: auto;
+
+    padding-right: 50px;
+}
+
+.container1 p{
+    font-size: 18px;
+    font-family:inherit ;
+}
+
+#Education{
+    margin: 30px;
+    padding: 76px; 
+    background: rgb(38, 81, 95);
+    border-radius: 25px;
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;    
+}
+
+#Education .container2 div{
+    margin: 10px;
+    align-items: center;
+    
+}
+
+#Education h1{
+    padding: 20px;
+    
+}
+
+#Education img{
+    width: 400px;
+    height: 264px;
+    border-radius: 50px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#Education p{
+    width: 430px;
+    margin-top: 25px;
+    padding: 25px;
+    font-size: 18px;
+    font-family:inherit ;
+    border-top: 2px solid white;
+    
+}
+
+#hobi{
+    margin: 30px;
+    margin-top: 20px;
+    padding: 76px; 
+    background: rgb(0 0 0 / 65%);
+    border-radius: 25px;
+}
+
+.container3 img{
+    margin-top: 30px;
+    border-radius: 35px;
+}
+
+
+
+#cont {
+    margin: 30px;
+    padding: 76px;
+    margin-top: 20px;
+    background-color:#969494;
+    border-radius: 25px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
